@@ -1,0 +1,137 @@
+.A {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  background-color: #f0eae4;
+  padding: 20px;
+  width: 1400px;
+
+  .B {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 750px;
+    margin-left: 150px;
+  }
+  .c {
+    display: flex;
+    margin-right: 200px;
+
+    width: 150px;
+    .d {
+      height: 25px;
+      width: 40px;
+      margin-left: 70px;
+      background-color: green;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  A {
+    width: 100px;
+  }
+}
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  .A {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .A {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .A {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .A {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .A {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .A {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .A {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* For mobile phones: */
+  .A {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 200px) {
+  /* For mobile phones: */
+  .A {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 100px) {
+  /* For mobile phones: */
+  .A {
+    width: 10%;
+  }
+}
